@@ -10,11 +10,17 @@
         margin: 0;
         padding: 0;
       }
+      body {
+        background: linear-gradient(to right, #a18cd1, #fbc2eb);
+      }
       .box {
         position: relative;
         margin: 100px auto;
         width: 400px;
         height: 300px;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 2px 2px 5px #000;
       }
       ul li {
         list-style: none;
@@ -160,7 +166,7 @@
     <div class="box">
       <ul>
         <li>
-          <img src="./image/img1.jpg" alt="" id="img" />
+          <img src="./asset/image/img1.jpg" alt="" id="img" />
         </li>
       </ul>
       <ol></ol>
@@ -173,7 +179,7 @@
 
     <div class="container">
       <form action="#">
-        <input type="text" class="input" placeholder="请输入内容" value="123;./image/img1.jpg" />
+        <input type="text" class="input" placeholder="请输入内容" value="123;./asset/image/img1.jpg" />
         <input type="button" value="发送" class="btn" />
       </form>
 
@@ -183,7 +189,7 @@
     </div>
   </body>
   <script>
-    let imgs = ['./image/img1.jpg', './image/img1.png', './image/img2.jpg', './image/img3.jpg']
+    let imgs = ['./asset/image/img1.jpg', './asset/image/img1.png', './asset/image/img2.jpg', './asset/image/img3.jpg']
     const ols = document.querySelector('ol')
     const img = document.querySelector('#img')
     const btn2 = document.querySelector('.arrowRight')
@@ -235,7 +241,7 @@
       const li = document.createElement('li')
       // 指向this
       li.className = 'item'
-      li.innerHTML = `<div class="fl"><img src="./image/suolong.webp" alt="" /><a href="javascript:;">删除</a></div><div class="fr"><div class="fr-name">Loong nuts</div><div class="fr-title">${content[0]}</div><div class="fr-img"><img src=${content[1]} alt="" /></div></div>`
+      li.innerHTML = `<div class="fl"><img src="./asset/image/suolong.webp" alt="" /><a href="javascript:;">删除</a></div><div class="fr"><div class="fr-name">Loong nuts</div><div class="fr-title">${content[0]}</div><div class="fr-img"><img src=${content[1]} alt="" /></div></div>`
       ul.append(li)
       li.children[0].children[1].addEventListener('click', function () {
         li.remove()
