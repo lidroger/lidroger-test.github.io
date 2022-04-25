@@ -365,7 +365,7 @@
 }
 
 .stbdUl-fl .stbdUl-title .stbdUl-ul li {
-  font-size: 16px;
+  font-size: 14px;
   padding: 0 5px;
   height: 40px;
   line-height: 30px;
@@ -546,7 +546,7 @@
 
 .zxqk-fl .zxqk-imgs img {
   display: inline-block;
-  width: 240px;
+  width: 40%;
   height: 320px;
 }
 
