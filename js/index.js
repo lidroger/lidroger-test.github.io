@@ -171,10 +171,11 @@ ul3Parent.addEventListener('mouseleave', function () {
   timer3 = setInterval(change, 2500)
 })
 
+// media_report
 const media_arrowLeft = document.querySelector('#media_arrowLeft')
 const media_arrowRight = document.querySelector('#media_arrowRight')
 const media_ul = document.querySelector('.media_ul')
-const media_ul_Parent = document.querySelector('.media_ul').parentNode
+const media_ul_Parent = document.querySelector('.media_ul').parentNode.parentNode
 
 let mediaNum = 0
 media_arrowLeft.addEventListener('click', function () {
