@@ -365,7 +365,7 @@
 }
 
 .stbdUl-fl .stbdUl-title .stbdUl-ul li {
-  font-size: 14px;
+  font-size: 13px;
   padding: 0 5px;
   height: 40px;
   line-height: 30px;
@@ -477,7 +477,7 @@
   height: 92px;
   border-bottom: 1px dotted #ccc;
   padding-left: 70px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .stbdUl-fr ul li:nth-child(1) {
@@ -547,7 +547,7 @@
 .zxqk-fl .zxqk-imgs img {
   display: inline-block;
   width: 40%;
-  height: 320px;
+  height: 260px;
 }
 
 .zxqk-fl .zxqk-imgs img:nth-child(1) {
@@ -565,7 +565,7 @@
   padding: 2px;
   display: block;
   width: 50%;
-  height: 180px;
+  height: 150px;
 }
 
 .gdzx-content {
